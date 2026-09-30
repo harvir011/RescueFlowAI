@@ -1,67 +1,31 @@
-# ─── Node / Next.js ─────────────────────────────────────────────────────────────
-node_modules/
-frontend/node_modules/
+# ─── Next.js ───────────────────────────────────────────────────────────────
 .next/
-frontend/.next/
 out/
 build/
-dist/
+
+# ─── Node ──────────────────────────────────────────────────────────────────
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-*.log
 
-# ─── Python / Backend ────────────────────────────────────────────────────────
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.so
-*.egg
-*.egg-info/
-.eggs/
-.venv/
-venv/
-env/
-.Python
-backend/__pycache__/
-backend/*/__pycache__/
-backend/.venv/
-backend/venv/
-backend/rescueflow/
-backend/*/rescueflow/
-
-# ─── Environment variables ───────────────────────────────────────────────────
+# ─── Environment variables ──────────────────────────────────────────────────
 .env
 .env.local
-.env.*.local
-*.env
+.env.development.local
+.env.test.local
+.env.production.local
 
-# ─── Agent & Scratch Files ───────────────────────────────────────────────────
-.brain/
-.agents/
-scratch/
-task.md
-implementation_plan.md
-walkthrough.md
+# ─── TypeScript ─────────────────────────────────────────────────────────────
+*.tsbuildinfo
+next-env.d.ts
 
-# ─── Testing & Coverage ──────────────────────────────────────────────────────
-.pytest_cache/
-htmlcov/
-.coverage
-coverage.xml
-*.lcov
-.nyc_output/
-
-# ─── OS / IDE ────────────────────────────────────────────────────────────────
+# ─── OS / IDE ───────────────────────────────────────────────────────────────
 .DS_Store
-Thumbs.db
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
+Thumbs.db
 
-# ─── Deployment ──────────────────────────────────────────────────────────────
-.vercel
+# ─── Misc ────────────────────────────────────────────────────────────────────
 *.pem
+.vercel
