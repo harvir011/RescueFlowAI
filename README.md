@@ -47,7 +47,7 @@ Emergency response systems today are largely reactive and depend heavily on manu
 RescueFlow AI provides an intelligent platform capable of analyzing incidents submitted through multiple input formats:
 
 1. 🎙️ **Multimodal Reporting:** Users can report the emergencies using their voice, images, or text.
-2. 🧠 **AI Triage & Analysis:** Powered by Google Gemini and OpenAI Whisper, the system instantly identifies the incident type, estimates severity, and determines required units.
+2. 🧠 **AI Triage & Analysis:** Powered by Google Gemini and OpenAI Whisper, the system instantly identifies the incident type,    estimates severity, and determines required units.
 3. 🗺️ **Live GIS Command Center:** Dispatchers view a real-time heatmap and track active responders.
 4. 🚑 **Automated Dispatch:** Instantly notifies the closest and most relevant responder units (Police, Fire, Medical).
 
@@ -81,7 +81,7 @@ RescueFlow AI provides an intelligent platform capable of analyzing incidents su
 
 ### ⚡ 1-Click Deploy to Vercel
 
-The easiest way to deploy RescueFlow AI is using the Vercel deploy button. It will automatically set the correct root directory and prompt you for the required environment variables:
+The easiest way to deploy RescueFlow AI is to click the  Vercel deploy button and deply the project. It will automatically set the correct root directory and prompt you for the required environment variables:
 
 1. Click the **Deploy with Vercel** button at the top of this README.
 2. When prompted, enter your `GEMINI_API_KEY`, `NEXT_PUBLIC_SUPABASE_URL`, and `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
